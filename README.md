@@ -13,4 +13,4 @@ The app fetches data from a custom Flask API I built, which scrapes etymology in
 
 Live Website: <a href = "https://wordorgins.netlify.app/">wordOrgins.netlify.app<a>
 <br>
-Link to Flask API Repo: <a href = "https://github.com/FerdiaMT/Flask_EtmologyScraper">Flask_EtmologyScraper<a>
+Link to Flask API Repo: <a href = "https://github.com/FerdiaMT/Flask_EtymologyScraper">Flask_EtymologyScraper<a>
