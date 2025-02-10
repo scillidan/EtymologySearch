@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import TextInput from "./components/TextInput";
 import SubmitButton from "./components/SubmitButton";
-import legend from "./components/Legend";
+import Legend from "./components/Legend";
 import fetchOrigin from "./utils/fetchOrigin";
 import colorMap from "./utils/colorMap";
 
@@ -47,7 +47,7 @@ function App() {
         <TextInput textRef={textRef} setText={setText} />
         <SubmitButton isLoading={isLoading} />
       </form>
-      <legend /> {/* Add the legend below */}
+      <Legend /> {}
     </div>
   );
 }

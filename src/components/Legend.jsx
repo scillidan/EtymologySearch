@@ -1,7 +1,7 @@
 import React from "react";
 import colorMap from "../utils/colorMap";
 
-const legend = () => {
+const Legend = () => {
   return (
     <div style={{ marginTop: "20px", textAlign: "center" }}>
       <h3>Legend</h3>
@@ -23,4 +23,4 @@ const legend = () => {
   );
 };
 
-export default legend;
+export default Legend;
