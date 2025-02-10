@@ -15,7 +15,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!text.trim()) {
-      alert("Please enter some text.");
+      alert("please enter some text.");
       return;
     }
 

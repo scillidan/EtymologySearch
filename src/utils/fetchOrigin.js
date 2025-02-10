@@ -5,14 +5,14 @@ const fetchOrigin = async (word) => {
     );
 
     if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
+      throw new Error(`http error, status: ${response.status}`);
     }
 
     const data = await response.json();
     return data.oldest_origin.toLowerCase();
   } catch (err) {
-    console.error(`Failed to fetch etymology for "${word}":`, err);
-    return "unknown";
+    console.error(`fetch failed for "${word}":`, err);
+    return "error";
   }
 };
 

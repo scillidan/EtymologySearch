@@ -6,7 +6,7 @@ const TextInput = ({ textRef, setText }) => {
       ref={textRef}
       contentEditable
       onInput={(e) => setText(e.target.textContent)}
-      placeholder="Type your text here..."
+      placeholder="type your text here"
       style={{
         border: "2px solid black",
         borderRadius: "5px",
