@@ -14,16 +14,17 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .App {
+  margin:0;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.242);
-  padding: 40px; 
-  border-radius: 10px;
+  padding: 040px; 
+  border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.386);
   
   /*CENTERING FIX*/
-  width: 100% -20px;  /*probably better fix then this, but it will do*/
+  width:65vw;  /*probably better fix then this, but it will do*/
   height: auto; 
-  /*max-width: 90vw;*/ 
+  max-width: 90vw;
   display: flex;
   flex-direction: column;
   align-items: center; 
