@@ -6,14 +6,16 @@ const TextInput = ({ textRef, setText }) => {
       ref={textRef}
       contentEditable
       onInput={(e) => setText(e.target.textContent)}
-      placeholder="type your text here"
       style={{
-        border: "2px solid black",
+        border: "3px solid rgba(27, 31, 35, 0.27)",
         borderRadius: "5px",
+        outline: "none",
         padding: "10px",
         width: "600px",
         height: "150px",
-        fontSize: "16px",
+        fontSize: "22px",
+        fontFamily: "Segoe UI",
+        fontWeight: "bold",
         textAlign: "left",
         overflowY: "auto",
         resize: "none",

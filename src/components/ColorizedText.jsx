@@ -16,12 +16,12 @@ const ColorizedText = ({ text, setIsLoading }) => {
         const language = Object.keys(colorMap).find((lang) =>
           origin.includes(lang)
         );
-        const color = colorMap[language] || "black";
+        const color = colorMap[language] || "black"; // either its the color associated in colorMap, or we default to black
 
-        const span = document.createElement("span");
+        const span = document.createElement("span"); // set up the dynamically colored word
         span.textContent = word + " ";
         span.style.color = color;
-        textRef.current.appendChild(span);
+        textRef.current.appendChild(span); // append it to the current words
       }
     }
     setIsLoading(false);
