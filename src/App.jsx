@@ -42,7 +42,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Etymology Finder</h1>
+      <h1>Etymology Search</h1>
       <form onSubmit={handleSubmit}>
         <TextInput textRef={textRef} setText={setText} />
         <SubmitButton isLoading={isLoading} />
