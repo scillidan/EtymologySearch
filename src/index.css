@@ -13,7 +13,36 @@ h1,h2,h3,h4,h5,h6,p{
   color:#24292E;
 }
 
-.App {
+h1.dark-mode,h2.dark-mode,h3,h4.dark-mode,h5.dark-mode,h6.dark-mode,p.dark-mode{
+  color:#ffffff;
+}
+
+.submitButton{
+  appearance: "none";
+  background-color: "#FAFBFC";
+  border: "1px solid rgba(27, 31, 35, 0.15)";
+  border-radius: "6px";
+  color:" #24292E";
+  /* boxShadow: "rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset";
+  boxSizing: "border-box";
+  color:" #24292E";
+  cursor: "pointer";
+  display: "inline-block";
+  fontFamily:"Segoe UI";
+  fontSize: "14px";
+  fontWeight: "500";
+  lineHeight: "20px";
+  padding: "6px 16px";
+  position: "relative";
+  transition:"background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1)";
+  userSelect: "none"; */
+}
+
+.submitButton.dark-mode{
+  color: #f9f9f9;
+}
+
+.CentreBox {
   margin:0;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.242);
@@ -30,3 +59,44 @@ h1,h2,h3,h4,h5,h6,p{
   align-items: center; 
   justify-content: center; 
 }
+
+.toolbar {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1000; /* this is ti make sure it always stays at the very front of the page*/
+}
+
+.toolbar.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.toolbar button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #d8d8d8;
+  color: rgb(30, 30, 30);
+  border-radius: 4px;
+}
+
+.toolbar button:hover {
+  background-color: #0057b342;
+}
+
+body.dark-mode {
+  background-color: #1f1f21;
+  color: #ffffff;
+}
+
+/* quick fix, optimize this later 
+body {
+  /*padding-top: 40px; 
+}*/

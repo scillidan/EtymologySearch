@@ -6,6 +6,7 @@ import fetchOrigin from "./utils/fetchOrigin";
 import colorMap from "./utils/colorMap";
 
 import "./index.css";
+import Toolbar from "./components/Toolbar";
 
 function App() {
   const [text, setText] = useState("");
@@ -42,12 +43,15 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Etymology Search</h1>
-      <form onSubmit={handleSubmit}>
-        <TextInput textRef={textRef} setText={setText} />
-        <SubmitButton isLoading={isLoading} />
-      </form>
-      <Legend /> {}
+      <Toolbar />
+      <div className="CentreBox">
+        <h1>Etymology Search</h1>
+        <form onSubmit={handleSubmit}>
+          <TextInput textRef={textRef} setText={setText} />
+          <SubmitButton isLoading={isLoading} />
+        </form>
+        <Legend /> {}
+      </div>
     </div>
   );
 }
