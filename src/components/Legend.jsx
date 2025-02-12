@@ -1,6 +1,6 @@
 import React from "react";
 import colorMap from "../utils/colorMap";
-
+import "../index.css";
 const Legend = () => {//This takes the colors and names from colorMap
   return (
     <div style={{ marginTop: "20px", textAlign: "center" }}>
@@ -10,13 +10,13 @@ const Legend = () => {//This takes the colors and names from colorMap
       }>
         {Object.entries(colorMap).map(([language, color]) => (
           <div key={language} style={{ 
-            backgroundColor: "#FAFBFC",
+            backgroundColor: "",
             display: "flex", 
             alignItems: "center", 
             gap: "3px" ,
             border: "2px solid rgba(25, 26, 28, 0.12)",
             borderRadius: "6px",
-            color:" #24292E",
+            color:"rgb(245, 250, 255)",
             display: "inline-block",
             padding: "5px"
             }}>

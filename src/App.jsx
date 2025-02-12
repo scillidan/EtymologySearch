@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div className="App">
-      <Toolbar />
+
       <div className="CentreBox">
         <h1>Etymology Search</h1>
         <form onSubmit={handleSubmit}>
@@ -52,6 +52,9 @@ function App() {
         </form>
         <Legend /> {}
       </div>
+
+      
+
     </div>
   );
 }
