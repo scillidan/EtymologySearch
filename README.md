@@ -3,6 +3,9 @@
 A React-based web application that allows users to input a sentence and highlights the etymology origin of each word <br> (What language the given word originated from). <br>
 The app fetches data from a custom Flask API I built, which scrapes etymology information from <a href="www.etymonline.com">etymonline.com<a>.
 
+![Alt text](thumbnail.png?raw=true "Title")
+
+
 **Features**:
 
 - Input a sentence and see the etymology of each word highlighted.
