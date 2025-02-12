@@ -14,3 +14,10 @@ The app fetches data from a custom Flask API I built, which scrapes etymology in
 Live Website: <a href = "https://wordorgins.netlify.app/">wordOrgins.netlify.app<a>
 <br>
 Link to Flask API Repo: <a href = "https://github.com/FerdiaMT/Flask_EtymologyScraper">Flask_EtymologyScraper<a>
+
+**How To Use**
+
+To use the webApp , type a sentance in english into the text box and press "color words".<br>
+The sentance can be any length, I recommend about 10 - 20 words to see some variation in color.<br>
+When the button is clicked the React App fetches from the flask API and retrieves the language the word originated from.<br>
+The words will then be colored in accordingly.<br>
