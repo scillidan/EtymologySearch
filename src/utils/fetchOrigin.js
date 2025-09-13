@@ -1,7 +1,7 @@
 const fetchOrigin = async (word) => {
   try {
     const response = await fetch(
-      `https://safe-temple-75715-0aecad923576.herokuapp.com/org?word=${word}`
+      `https://gm-flask-etymology-scraper.vercel.app/org?word=${word}`,
     );
 
     if (!response.ok) {
